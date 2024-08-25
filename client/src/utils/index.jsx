@@ -1,6 +1,6 @@
 import axios from "axios"
 
-export const serverUrl = process.env.SERVER_URL || "http://localhost:4000";
+export const serverUrl = "https://devhelperhub-ahh.onrender.com";
 
 export const api = axios.create({
     baseURL: `${serverUrl}/api`,
