@@ -4,7 +4,6 @@
   "description": "DevHelper Hub Application",
   "main": "server.js",
   "scripts": {
-    "build": "node build",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm run dev --prefix ../client",
